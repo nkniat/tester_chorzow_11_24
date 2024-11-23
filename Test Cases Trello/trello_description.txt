@@ -1,0 +1,56 @@
+Trello
+Popularna aplikacja webowa Trello, służąca do zarządzania projektami i zadaniami. Trello umożliwia użytkownikom tworzenie tablic, list i kart, które organizują różne zadania w ramach projektów. Użytkownicy mogą tworzyć karty z opisami zadań, ustawiać terminy realizacji, przypisywać karty do członków zespołu oraz dodawać komentarze i załączniki. Dodatkowo, Trello pozwala na monitorowanie postępów zadań dzięki systemowi etykiet, które ułatwiają kategoryzowanie i filtrowanie kart według różnych kryteriów (np. priorytetu, statusu czy typu zadania). Aplikacja umożliwia także przeciąganie kart między listami, co pomaga w organizowaniu procesu pracy oraz śledzeniu postępu realizacji zadań w czasie rzeczywistym.
+Wymagania
+1.	Rejestracja i logowanie:
+•	Użytkownik musi mieć możliwość zarejestrowania się w aplikacji, podając swoje dane (imię, adres e-mail, hasło).
+•	Użytkownik powinien mieć możliwość logowania się przy użyciu swojego adresu e-mail i hasła.
+•	W przypadku zapomnienia hasła, użytkownik powinien mieć możliwość resetowania hasła za pomocą e-maila.
+
+2.	Tworzenie i zarządzanie tablicami:
+•	Użytkownik może tworzyć nowe tablice dla różnych projektów.
+•	Użytkownik może edytować nazwę tablicy i dodać opis.
+•	Użytkownik może usunąć tablicę, a po jej usunięciu wszystkie dane związane z tablicą muszą zostać trwale usunięte.
+
+3.	Tworzenie, edytowanie i usuwanie kart:
+•	Użytkownik może tworzyć karty na tablicy i przypisywać je do odpowiednich list (np. "Do zrobienia", "W trakcie", "Zrobione").
+•	Karty mogą zawierać tytuł, opis, termin wykonania oraz załączniki.
+•	Użytkownik może edytować tytuł, opis, termin oraz przypisać karty do członków zespołu.
+•	Karty mogą zostać usunięte przez autora karty lub osoby, które mają odpowiednie uprawnienia.
+
+4.	Przypisywanie kart do członków zespołu:
+•	Użytkownik może przypisać kartę do jednego lub kilku członków zespołu.
+•	Po przypisaniu karty użytkownik otrzymuje powiadomienie o przypisaniu.
+•	Powinna być możliwość usuwania przypisania użytkownika do karty.
+5.	Komentarze i załączniki:
+•	Użytkownicy mogą dodawać komentarze do kart.
+•	Użytkownicy mogą dodawać załączniki (np. pliki PDF, obrazy) do kart.
+•	Komentarze i załączniki muszą być dostępne dla wszystkich osób przypisanych do karty.
+
+6.	Etykiety i filtrowanie kart:
+•	Użytkownicy mogą tworzyć etykiety do kart (np. "Wysoki priorytet", "Wymaga uwagi").
+•	Karty mogą mieć przypisane jedną lub więcej etykiet.
+•	Użytkownicy mogą filtrować karty na tablicy po etykietach, terminach lub przypisanych użytkownikach.
+
+7.	Przeciąganie kart między listami:
+•	Użytkownicy mogą przeciągać karty pomiędzy różnymi listami na tablicy (np. z listy "Do zrobienia" do "W trakcie" i "Zrobione").
+•	Każda zmiana statusu karty (np. zmiana listy) powinna być zapisana automatycznie.
+
+8.	Powiadomienia:
+•	Użytkownicy otrzymują powiadomienia o przypisaniu nowych kart, komentarzach lub załącznikach.
+•	Powiadomienia powinny być dostarczane zarówno w aplikacji, jak i na e-maila (opcjonalnie, w zależności od ustawień użytkownika).
+
+9.	Wersjonowanie i historia zmian:
+•	Aplikacja musi zapisywać historię zmian na karcie, w tym zmiany w tytule, opisie, przypisanych użytkownikach, terminach oraz etykietach.
+•	Użytkownicy muszą mieć dostęp do historii zmian na każdej karcie.
+
+10.	Zarządzanie użytkownikami i uprawnieniami:
+•	Aplikacja umożliwia tworzenie zespołów, do których można dodawać członków.
+•	Administrator tablicy może przydzielać użytkownikom różne role (np. właściciel, członek zespołu, gość).
+•	Użytkownicy mogą mieć różne uprawnienia do edycji tablicy, list i kart, w zależności od przypisanej roli.
+
+11.	Responsywność:
+•	Aplikacja musi działać poprawnie na różnych urządzeniach, w tym komputerach stacjonarnych, laptopach, tabletach oraz smartfonach.
+12.	Dodatkowe wymagania:
+•	Bezpieczeństwo: Aplikacja powinna zapewniać bezpieczne przechowywanie danych użytkowników i szyfrowanie hasła.
+•	Integracje: Aplikacja powinna mieć możliwość integracji z popularnymi narzędziami do komunikacji (np. Slack) i przechowywania plików (np. Google Drive).
+
