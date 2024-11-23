@@ -2,7 +2,7 @@ ID Testu	Nazwa testu	Opis testu	Kroki testowe	Oczekiwany wynik	Rzeczywisty wynik
 TC001	Rejestracja nowego użytkownika	
 Testuje proces rejestracji nowego użytkownika w aplikacji	
 "1. Otwórz stronę rejestracji.
-2. Wprowadź poprawne dane (imię, nazwisko, e-mail, hasło).
+2. Wprowadź poprawne dane (imię: Natalia, nazwisko: Burda, e-mail: natalia.burda@wp.pl, hasło: "moje_fajne_h@slo13").
 3. Kliknij ""Zarejestruj się"".
 4. Potwierdź rejestrację w e-mailu."	
 Użytkownik powinien zostać pomyślnie zarejestrowany, a aplikacja powinna wyświetlić komunikat powitalny.	W
