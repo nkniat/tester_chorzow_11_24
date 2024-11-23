@@ -1,6 +1,6 @@
 # tester_chorzow_11_24
 
-Aplikacja do zarządzania zadaniami dla zespołów IT (Trello)
+Aplikacja w języku polskim do zarządzania zadaniami dla zespołów IT (Trello)
 
 ## Wymagania
 - System logowania i rejestracji
