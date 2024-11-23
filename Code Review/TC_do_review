@@ -7,7 +7,7 @@ Testuje proces rejestracji nowego użytkownika w aplikacji
 4. Potwierdź rejestrację w e-mailu."	
 Użytkownik powinien zostać pomyślnie zarejestrowany, a aplikacja powinna wyświetlić komunikat powitalny.	W
 yskoczył błąd: "Niepoprawne dane użytkownika".	
-Zakończony	Zmiana weryfikacji e-maila nie działa poprawnie.
+Zakończony	Zmiana weryfikacji e-maila nie działa poprawnie.(Brak pop-upa w przypadku błędnych danych)
 
 TC002	Logowanie do aplikacji	
 Testuje proces logowania do aplikacji po zarejestrowaniu użytkownika	
