@@ -12,7 +12,7 @@ Zakończony	Zmiana weryfikacji e-maila nie działa poprawnie.
 TC002	Logowanie do aplikacji	
 Testuje proces logowania do aplikacji po zarejestrowaniu użytkownika	
 "1. Wejdź na stronę logowania.
-2. Wprowadź poprawny e-mail i hasło.
+2. Wprowadź poprawny e-mail i hasło (e-mail: test@test.com, hasło: admin1).
 3. Kliknij ""Zaloguj się""."	
 Użytkownik powinien zostać zalogowany i przeniesiony na stronę główną.	
 Zalogowanie się powiodło.	Zakończony	
