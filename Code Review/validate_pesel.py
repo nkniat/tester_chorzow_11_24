@@ -1,9 +1,12 @@
+pesel = input("Type your pesel here: ") # możliwość wprowadzenia nr pesel
+
 def validate_pesel(pesel):
     """
     Funkcja walidująca numer PESEL.
     PESEL powinien mieć 11 cyfr i spełniać warunki kontroli poprawności.
     """
     if len(pesel) != 11:  # Sprawdzenie długości PESEL
+        print("Invalid number of char.") # dodany komunikat
         return False  # Nie zwraca informacji, dlaczego nieprawidłowy
 
     if not pesel.isdigit():  # Sprawdzenie, czy PESEL zawiera tylko cyfry
