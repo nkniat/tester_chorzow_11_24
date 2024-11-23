@@ -3,8 +3,13 @@ def validate_pesel(pesel):
     Funkcja walidująca numer PESEL.
     PESEL powinien mieć 11 cyfr i spełniać warunki kontroli poprawności.
     """
-    if len(pesel) != 11:  # Sprawdzenie długości PESEL
-        return False  # Nie zwraca informacji, dlaczego nieprawidłowy
+    # Sprawdzenie długości PESEL
+    # Dodanie rozróżnienia błędu na zbyt długi oraz zbyt krótki pesel
+    if len(pesel) < 11:  # pesel jest za krótki
+        return "Nieprawidłowy PESEL: Wprowadzony pesel jest za krótki."
+
+    if len(pesel) < 11:  # pesel jest za długi
+        return "Nieprawidłowy PESEL: Wprowadzony pesel jest za długi."
 
     if not pesel.isdigit():  # Sprawdzenie, czy PESEL zawiera tylko cyfry
         return "Nieprawidłowy PESEL: zawiera niedozwolone znaki"
