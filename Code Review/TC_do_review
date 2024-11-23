@@ -22,7 +22,7 @@ Zakończony
 Brak pop-upa w przypadku błędnego hasła.
 
 TC003	Wyszukiwanie produktów	
-Testuje wyszukiwanie produktów na stronie sklepu internetowego	www.allegro.pl
+Testuje wyszukiwanie produktów na stronie sklepu internetowego	
 "1. Otwórz stronę główną sklepu.
 2. Wprowadź nazwę produktu w polu wyszukiwania.
 3. Kliknij ""Szukaj"".
