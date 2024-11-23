@@ -1,7 +1,6 @@
 ID Testu	Nazwa testu	Opis testu	Kroki testowe	Oczekiwany wynik	Rzeczywisty wynik	Status	Uwagi
-
 TC001	Rejestracja nowego użytkownika	
-Testuje proces rejestracji nowego użytkownika w aplikacji
+Testuje proces rejestracji nowego użytkownika w aplikacji	
 "1. Otwórz stronę rejestracji.
 2. Wprowadź poprawne dane (imię: Karolina, nazwisko: M, e-mail: test@test.com, hasło: admin1).
 3. Kliknij ""Zarejestruj się"".
@@ -12,7 +11,7 @@ Zakończony
 Zmiana weryfikacji e-maila nie działa poprawnie.
 
 TC002	Logowanie do aplikacji	
-Testuje proces logowania do aplikacji po zarejestrowaniu użytkownika	
+Testuje proces logowania do aplikacji po zarejestrowaniu użytkownika.
 "1. Wejdź na stronę logowania.
 2. Wprowadź poprawny e-mail (test@test.com) i hasło (admin1).
 3. Kliknij ""Zaloguj się""."	
@@ -33,7 +32,7 @@ Zakończony
 Wyniki są niepełne, brak opcji filtrowania.
 
 TC004	Dodawanie produktów do koszyka	
-Testuje możliwość dodania produktów do koszyka w sklepie internetowym	
+Testuje możliwość dodania produktów do koszyka w sklepie internetowym.
 "1. Wybierz produkt z listy wyników wyszukiwania.
 2. Kliknij ""Dodaj do koszyka"".
 3. Przejdź do koszyka i sprawdź zawartość."
@@ -43,7 +42,7 @@ Zakończony
 Koszyk nie odświeża się automatycznie.
 
 TC005	Przeglądanie historii zamówień	
-Testuje możliwość przeglądania historii zamówień po zalogowaniu się do aplikacji	
+Testuje możliwość przeglądania historii zamówień po zalogowaniu się do aplikacji.
 "1. Zaloguj się na swoje konto.
 2. Przejdź do sekcji ""Moje zamówienia"".
 3. Kliknij na konkretną pozycję w historii."	
