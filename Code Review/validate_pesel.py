@@ -13,9 +13,12 @@ def validate_pesel(pesel):
     checksum = 0
 
     for i in range(10):  # Pętla obliczająca sumę kontrolną
-        checksum += int(pesel[i]) * weights[i]  # Brak uwzględnienia wyjątków, np. dla cyfr 0
+        checksum += int(pesel[i]) * weights[i]
 
-    control_digit = 10 - (checksum % 10)  # Obliczenie cyfry kontrolnej
+    if (checksum % 10) == 0:
+        control_digit = 0  # Przypadek szczególny
+    else
+        control_digit = 10 - (checksum % 10)  # Obliczenie cyfry kontrolnej
     if control_digit != int(pesel[10]):  # Błąd w sprawdzeniu cyfry kontrolnej
         return False
 
