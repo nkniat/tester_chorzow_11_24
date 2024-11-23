@@ -1,21 +1,24 @@
 ID Testu	Nazwa testu	Opis testu	Kroki testowe	Oczekiwany wynik	Rzeczywisty wynik	Status	Uwagi
+
 TC001	Rejestracja nowego użytkownika	
-Testuje proces rejestracji nowego użytkownika w aplikacji	
+Testuje proces rejestracji nowego użytkownika w aplikacji
 "1. Otwórz stronę rejestracji.
-2. Wprowadź poprawne dane (imię, nazwisko, e-mail, hasło).
+2. Wprowadź poprawne dane (imię: Karolina, nazwisko: M, e-mail: test@test.com, hasło: admin1).
 3. Kliknij ""Zarejestruj się"".
 4. Potwierdź rejestrację w e-mailu."	
-Użytkownik powinien zostać pomyślnie zarejestrowany, a aplikacja powinna wyświetlić komunikat powitalny.	W
-yskoczył błąd: "Niepoprawne dane użytkownika".	
-Zakończony	Zmiana weryfikacji e-maila nie działa poprawnie.
+Użytkownik powinien zostać pomyślnie zarejestrowany, a aplikacja powinna wyświetlić komunikat powitalny.	
+Wyskoczył błąd: "Niepoprawne dane użytkownika".	
+Zakończony	
+Zmiana weryfikacji e-maila nie działa poprawnie.
 
 TC002	Logowanie do aplikacji	
 Testuje proces logowania do aplikacji po zarejestrowaniu użytkownika	
 "1. Wejdź na stronę logowania.
-2. Wprowadź poprawny e-mail i hasło.
+2. Wprowadź poprawny e-mail (test@test.com) i hasło (admin1).
 3. Kliknij ""Zaloguj się""."	
 Użytkownik powinien zostać zalogowany i przeniesiony na stronę główną.	
-Zalogowanie się powiodło.	Zakończony	
+Zalogowanie się powiodło.	
+Zakończony	
 Brak pop-upa w przypadku błędnego hasła.
 
 TC003	Wyszukiwanie produktów	
@@ -26,7 +29,8 @@ Testuje wyszukiwanie produktów na stronie sklepu internetowego
 4. Przejrzyj wyniki wyszukiwania."
 Strona powinna wyświetlić listę produktów pasujących do zapytania.	
 Produkty zostały wyświetlone.	
-Zakończony	Wyniki są niepełne, brak opcji filtrowania.
+Zakończony	
+Wyniki są niepełne, brak opcji filtrowania.
 
 TC004	Dodawanie produktów do koszyka	
 Testuje możliwość dodania produktów do koszyka w sklepie internetowym	
@@ -35,7 +39,8 @@ Testuje możliwość dodania produktów do koszyka w sklepie internetowym
 3. Przejdź do koszyka i sprawdź zawartość."
 Produkt powinien zostać dodany do koszyka, a jego liczba w koszyku powinna wzrosnąć o 1.	
 Produkt dodany do koszyka.	
-Zakończony	Koszyk nie odświeża się automatycznie.
+Zakończony	
+Koszyk nie odświeża się automatycznie.
 
 TC005	Przeglądanie historii zamówień	
 Testuje możliwość przeglądania historii zamówień po zalogowaniu się do aplikacji	
@@ -44,4 +49,5 @@ Testuje możliwość przeglądania historii zamówień po zalogowaniu się do ap
 3. Kliknij na konkretną pozycję w historii."	
 Aplikacja powinna wyświetlić szczegóły wybranego zamówienia.	
 Szczegóły zamówienia wyświetlono.
-Zakończony	Brak daty zamówienia w szczegółach.
+Zakończony	
+Brak daty zamówienia w szczegółach.
